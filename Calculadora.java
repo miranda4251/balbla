@@ -14,16 +14,20 @@ public class Calculadora {
     
     public void Calculadora_Bruno(){
         Scanner ler = new Scanner(System.in);
-        int x = ler.nextInt();
-        int y = ler.nextInt();
+        int x = 0;
+        int y= 0;
         int resultado = 0;
+        int input = ler.nextInt();
         
         
-        switch (resultado){
+        switch (input){
             case 1:
-                System.out.println("DIgite o numero 1 "+ x);
-                System.out.println("Digite o número 2 "+ y);
-                System.out.println("O resultado da soma é "+ x+y);
+                System.out.println("DIgite o numero 1 ");
+                x = ler.nextInt();
+                System.out.println("Digite o número 2 ");
+                y = ler.nextInt();
+                System.out.println("O resultado da soma é "+ (x+y));
+                
                 break;
             
         } 
