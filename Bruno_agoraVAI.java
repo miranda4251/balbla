@@ -10,13 +10,14 @@ package bruno_agoravai;
  * @author BR40044529
  */
 public class Bruno_agoraVAI {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Eai_Mundo eai = new Eai_Mundo();
         eai.Eai_Mundo();
+        
+        System.out.println("Bem vindo a essa bosta \n Para somar digite 1");
+        Calculadora calcular = new Calculadora();
+        calcular.Calculadora_Bruno();
     }
     
 }
